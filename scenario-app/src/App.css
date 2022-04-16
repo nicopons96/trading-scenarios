@@ -1,0 +1,28 @@
+body {
+  overflow: hidden;
+  margin: 0%;
+}
+
+.container {
+  height: 100vh;
+
+  display: grid;
+  grid-template-columns: 80% 20%;
+  grid-template-rows: 80% 20%;
+}
+
+.tradingview {
+  background-color: blue;
+}
+
+.scenario-panel {
+  background-color: red;
+}
+
+.trades {
+  background-color: blueviolet;
+}
+
+.infos {
+  background-color: green;
+}
